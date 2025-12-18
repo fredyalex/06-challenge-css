@@ -1,0 +1,24 @@
+/* styles.css - punto de entrada que importa la arquitectura ITCSS y Atomic Design */
+
+/* 01 - Settings */
+@import url("./styles/01-settings/settings.css");
+
+/* 02 - Tools */
+@import url("./styles/02-tools/tools.css");
+
+/* 03 - Generic */
+@import url("./styles/03-generic/generic.css");
+
+/* 04 - Elements */
+@import url("./styles/04-elements/elements.css");
+
+/* 05 - Objects */
+@import url("./styles/05-objects/objects.css");
+
+/* 06 - Components (Atomic Design) */
+@import url("./styles/06-atoms/atoms.css");
+@import url("styles/07-molecules/molecules.css");
+@import url("styles/08-organisms/organisms.css");
+
+/* 07 - Utilities */
+@import url("styles/09-utilities/utilities.css");
