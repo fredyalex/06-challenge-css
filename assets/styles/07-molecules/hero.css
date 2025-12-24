@@ -1,0 +1,18 @@
+.m-hero {
+    gap: var(--gap-sm);
+    margin-bottom: var(--sp-3xl);
+}
+
+.m-hero__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-sm);
+}
+
+.m-hero__description {
+    font-size: var(--fs-small);
+    text-align: center;
+    max-width: 400px;
+}

@@ -1,1 +1,3 @@
 /* ITCSS - Components: Molecules */
+@import "./hero.css";
+@import "./card.css";

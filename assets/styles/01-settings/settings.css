@@ -1,1 +1,6 @@
 /* ITCSS - Settings: variables, fonts, colors */
+@import "./fonts.css";
+@import "./colors.css";
+@import "./typography.css";
+@import "./shapes.css";
+@import "./spacing.css";

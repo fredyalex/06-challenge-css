@@ -1,0 +1,42 @@
+/* ITCSS: Settings → Typography tokens
+   Definición de variables para familias, tamaños, pesos, line-height y letter-spacing
+*/
+
+:root {
+    /* Escala tipográfica (Minor Third ≈ 1.2) derivada de --fs-base */
+    --fs-sm: calc(var(--fs-base) / 1.2); /* ≈ 12.5px ≈ 0.78125rem */
+    --fs-base:  0.9375rem; /* 15px */
+    --fs-md: calc(var(--fs-base) * 1.2); /* 18px = 1.125rem */
+    --fs-lg: calc(var(--fs-base) * 1.44); /* 1.2^2 = 21.6px = 1.35rem */
+    --fs-xl: calc(var(--fs-base) * 1.728); /* 1.2^3 = 25.92px = 1.62rem */
+    --fs-xxl: calc(var(--fs-base) * 2.074); /* 1.2^4 ≈ 31.11px ≈ 1.944rem */
+
+    /* Familias tipográficas */
+    --font-primary: "Poppins", sans-serif;
+
+    /* Pesos tipograficos */
+    --fw-extralight: 200;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+
+    /* Alturas de línea */
+    --lh-md: calc(var(--lh-base) * 0.95);
+    --lh-lg: calc(var(--lh-base) * 0.90);
+    --lh-xl: calc(var(--lh-base) * 0.85);
+    --lh-base: 1.5;
+    --lh-small: 1.1;
+
+    /* Alias semánticos para uso en Elements/Components */
+    --ff-body: var(--font-primary);
+    --ff-heading: var(--font-primary);
+
+    /* Tamaños semánticos (mapa a la escala de arriba) */
+    --fs-heading-xxl: var(--fs-xxl);
+    --fs-heading-xl: var(--fs-xl);
+    --fs-heading-lg: var(--fs-lg);
+    --fs-heading-md: var(--fs-md);
+    --fs-body: var(--fs-base);
+    --fs-small: var(--fs-sm);
+
+}
+

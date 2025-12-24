@@ -1,0 +1,31 @@
+/* ITCSS - Settings: Spacing scale (margins, paddings, gaps)
+   Nota: 1rem = 14px. La escala está en rem para escalar con la raíz. */
+
+:root {
+    /* Tokens (espaciado atómico) */
+    --space-0: 0;           /* 0px */
+    --space-1: 0.25rem;     /* ≈4px */
+    --space-2: 0.5rem;      /* ≈7px */
+    --space-3: 0.75rem;     /* ≈11px */
+    --space-4: 1rem;        /* 14px */
+    --space-5: 1.25rem;     /* ≈18px */
+    --space-6: 1.5rem;      /* ≈21px */
+    --space-7: 2rem;        /* ≈28px */
+    --space-8: 2.5rem;      /* ≈35px */
+    --space-9: 3rem;        /* ≈42px */
+
+    /* Alias semánticos (usar estos en capas superiores) */
+    --sp-xxs: var(--space-1);
+    --sp-xs:  var(--space-2);
+    --sp-sm:  var(--space-3);
+    --sp-md:  var(--space-4);
+    --sp-lg:  var(--space-6);
+    --sp-xl:  var(--space-7);
+    --sp-2xl: var(--space-8);
+    --sp-3xl: var(--space-9);
+
+    /* Gaps por defecto para layouts Grids/Flex si se desea */
+    --gap-sm: var(--sp-sm);
+    --gap-md: var(--sp-md);
+    --gap-lg: var(--sp-lg);
+}

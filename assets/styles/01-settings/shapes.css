@@ -1,0 +1,27 @@
+/* ITCSS - Settings: Radius / Borders / Shadows tokens */
+:root {
+    /* Radius */
+    --radius-0: 0;
+    --radius-xs: 0.25rem; /* 4px */
+    --radius-sm: 0.5rem; /* 8px */
+    --radius-md: 0.75rem; /* 12px */
+    --radius-lg: 1rem; /* 16px */
+    --radius-xl: 1.25rem; /* 20px */
+
+    /* Borders */
+    --border-0: 0;
+    --border-1: 1px;
+    --border-2: 2px;
+
+    /* Shadows */
+    --shadow-0: none;
+    --shadow-card: 0 15px 30px -10px rgba(131, 166, 210, 0.5);
+    --shadow-1: 0 4px 25px rgba(0, 0, 0, 0.08);
+    --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.12);
+
+    /* Alias semánticos */
+    --radius-card: var(--radius-sm);
+    --radius-image: var(--radius-md);
+    --radius-chip: var(--radius-sm);
+    --elevation-card: var(--shadow-card);
+}

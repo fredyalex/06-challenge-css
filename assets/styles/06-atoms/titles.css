@@ -1,0 +1,12 @@
+.a-title {
+    font-family: var(--ff-heading), sans-serif;
+    font-size: var(--fs-heading-lg);
+}
+
+.a-title--bold {
+    font-weight: var(--fw-semibold);
+}
+
+.a-title--light {
+    font-weight: var(--fw-extralight);
+}

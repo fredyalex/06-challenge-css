@@ -1,1 +1,4 @@
 /* ITCSS - Generic: resets, normalize, box-sizing */
+
+@import "./normalize.css";
+@import "./box-sizing.css";

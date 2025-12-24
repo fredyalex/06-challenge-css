@@ -1,1 +1,15 @@
 /* ITCSS - Objects: layout patterns (wrappers, grids) */
+
+.o-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 6vh;
+    margin-block: 8vh;
+}
+
+.o-flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
